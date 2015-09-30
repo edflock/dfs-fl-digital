@@ -6,19 +6,30 @@
     <link rel="stylesheet" href="assets/css/app.css"/>
 </head>
 <body>
-<h3>Select the Documents that can be used for opening the account: </h3>
-<form >
-    <input type="checkbox" name="docs" value="passport">Passport<br>
-    <input type="checkbox" name="docs" value="pancard">Pan Card<br>
-    <input type="checkbox" name="docs" value="school">Metro Card<br>
-    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Submit</button>
-</form>
+<div class="topheadtitle">
+    <div class="titlecontent">Quick Quiz</div>
+</div>
+<div class="topcontdiv">
+    <div style="padding:0 20px;">
+    <h3>Select the Documents that can be used for opening the account: </h3>
+    <form class="questionansform">
+        <div>
+            <input type="checkbox" name="docs" value="passport">Passport<br>
+        </div>
+        <input type="checkbox" name="docs" value="pancard">Pan Card<br>
+        <input type="checkbox" name="docs" value="school">Metro Card<br>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Submit</button>
+    </form>
+    </div>
+</div>
+
 <div class="footdata" style="position: fixed;bottom: 0; width: 100%; background-color: white; padding: 10px;">
     <a href="page6/page6.html" class="btn btn-danger" style="float: right; cursor: pointer;">Next</a>
     <a href="page5/page5.html" class="btn btn-primary" style="float: right; cursor: pointer; margin-right: 20px;">Previous</a>
 </div>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">

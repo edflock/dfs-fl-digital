@@ -3,17 +3,28 @@
 <head>
     <title>FL Course</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/app.css"/>
 </head>
 <body>
-    <video width="500" height="600" controls>
-        <source src="assets/video/Ginni.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <div class="topheadtitle">
+        <div class="titlecontent">Video : Ginni</div>
+    </div>
+      <table id="topbotcont" class="midcont" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="middle" id="innercont">  
+            <video style="width:100%; height:auto; max-height: 100%" controls>
+                <source src="assets/video/Ginni.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+         </td>
+        </tr>
+      </table>
     <div class="footdata" style="position: fixed;bottom: 0; width: 100%; background-color: white; padding: 10px;">
         <a href="page2.html" class="btn btn-danger" style="float: right; cursor: pointer;">Next</a>
         <a href="index.html" class="btn btn-primary" style="float: right; cursor: pointer; margin-right: 20px;">Previous</a>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -1,11 +1,69 @@
 .mainpoints{
     text-align: center;
+    width: 100%;
 }
 
 .topicon img{
     height:150px;
 }
 
+.footdata{
+	box-shadow: 0px 0px 5px #888888;
+}
+
 .footdata a{
     color: white;
+}
+
+.topheadtitle{
+	box-shadow: 0px 0px 5px #888888;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.topheadtitle .titlecontent{
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+
+.contTitle{
+	font-size: 35px;
+}
+
+.midcont{
+	width:100%; 
+	height:100%;
+}
+
+#innercont{
+	margin: 0;
+	border:0;
+	height: 100%;
+	width: 100%;
+}
+
+.topcontdiv{
+	width:100%; 
+	height:100%;
+	padding: 55px 0 53px 0;
+}
+
+.questionansform input{
+	height:20px;
+}
+
+#topbotcont td{
+	padding: 55px 0 53px 0;
+}
+
+#botcont td{
+	padding: 0 0 53px 0;
+}
+
+html,body{
+	height: 100%;
 }
